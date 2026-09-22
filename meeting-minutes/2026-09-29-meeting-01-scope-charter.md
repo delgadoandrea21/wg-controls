@@ -1,6 +1,5 @@
 # Meeting 1 — Scope and Charter
 
-**Duration:** 60 minutes maximum  
 **Meeting type:** Decision gate  
 **Milestone:** Landscape & Requirements v0.1  
 **Target:** SC26-ready release by November 13, 2026
@@ -25,19 +24,15 @@ Items that cannot be resolved today will be recorded as open questions with an o
 
 ## Agenda
 
-| Time | Topic | Method | Output |
+| Time | Topic | Discussion | Output |
 |---:|---|---|---|
-| 0:00–0:05 | Opening and desired decisions | Chair framing | Shared objective and decision rules |
+| 0:00–0:05 | Opening and desired decisions | Framing | Shared objective and decision rules |
 | 0:05–0:15 | Milestone 1 scope | Review scope straw man; discuss only proposed changes | Provisional in/out-of-scope boundary |
 | 0:15–0:28 | Use-case prioritization | Validate, merge, and rank tentative use cases | Five to seven use-case classes |
 | 0:28–0:40 | Functional architecture | Walk through logical roles and missing functions | Accepted architecture baseline or named revisions |
 | 0:40–0:52 | Interface taxonomy | Classify interfaces as primary, adjacent, or context | Initial interface register and work priorities |
 | 0:52–0:58 | SC26 relationship and v0.1 contents | Confirm reference-architecture role | SC26 mapping principle and v0.1 package |
 | 0:58–1:00 | Owners and deadlines | Read back decisions and assignments | Named owners and due dates |
-
-## Facilitation rule
-
-Do not wordsmith during the meeting. Capture proposed wording changes as issues unless they change scope or technical meaning. Use the meeting for decisions that cannot be resolved asynchronously.
 
 ---
 
@@ -209,8 +204,6 @@ The last category is a finding, not a failure.
 ---
 
 ## 6. Meeting outputs and assignments
-
-Complete this table during the final two minutes and update the project tracker afterward.
 
 | Decision or task | Owner | Deliverable | Due |
 |---|---|---|---|
