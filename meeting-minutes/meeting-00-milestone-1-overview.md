@@ -61,29 +61,9 @@ The current reference architecture is influenced by the organizations and techno
 
 For example, a functional architecture may identify a workflow runtime, HPC resource manager, quantum resource manager, quantum runtime, and control system. The SC26 implementation may instantiate some of those roles using named projects. Milestone 1 should describe the roles and required behaviors first, then map named technologies onto them.
 
-### Two-way relationship
+<img width="762" height="792" alt="image" src="https://github.com/user-attachments/assets/3f106c6f-d8f5-404f-a88a-abb7e999cd58" />
 
-| Milestone 1 contributes to the reference architecture | The reference architecture contributes to Milestone 1 |
-|---|---|
-| Vendor-independent roles and terminology | A concrete end-to-end integration case |
-| Use cases and expected system behaviors | Evidence about what can be implemented now |
-| Interface taxonomy | Real boundaries, adapters, and operational dependencies |
-| Initial requirements and open questions | Measurements, constraints, and failure modes |
-| Gaps requiring later standardization | Feedback showing missing or unnecessary abstractions |
-| A basis for comparing future implementations | A demonstrable subset for SC26 discussion |
-
-### How SC26 coverage will be represented
-
-Each interface in the Milestone 1 taxonomy should be classified as:
-
-1. **Demonstrated at SC26** — the implementation exercises the interface end to end.
-2. **Partially exercised at SC26** — some functions or requirements are represented.
-3. **Architecturally represented but not exercised** — the role exists, but the demonstration does not validate the interface.
-4. **Outside the SC26 implementation** — the interface remains part of the broader landscape but is not present in this pathfinder.
-
-The fourth category is a valid finding, not a failure of the SC26 architecture.
-
-### Sequencing
+### How does it relate to the other milestones?
 
 ```mermaid
 flowchart LR
@@ -124,7 +104,7 @@ The SC26 implementation proceeds in parallel and intersects with this path durin
 
 ### Gate 1 — Scope baseline
 
-**Target:** September 29
+**Target:** September 23
 
 - Scope and exclusions are explicit.
 - Use-case classes are selected.
@@ -133,7 +113,7 @@ The SC26 implementation proceeds in parallel and intersects with this path durin
 
 ### Gate 2 — Architecture and landscape baseline
 
-**Target:** October 13
+**Target:** October 14
 
 - Logical roles and interface IDs are provisionally stable.
 - Technologies are mapped as examples.
@@ -142,7 +122,7 @@ The SC26 implementation proceeds in parallel and intersects with this path durin
 
 ### Gate 3 — Requirements and gap baseline
 
-**Target:** October 27
+**Target:** October 28
 
 - Requirements are traceable to use cases and evidence.
 - Required, target, observed, and TBD values are distinguished.
@@ -151,7 +131,7 @@ The SC26 implementation proceeds in parallel and intersects with this path durin
 
 ### Gate 4 — SC26 release approval
 
-**Target:** November 10
+**Target:** November 11
 
 - Headline findings are supported.
 - Major technical comments have dispositions.
@@ -162,11 +142,11 @@ The SC26 implementation proceeds in parallel and intersects with this path durin
 
 | Meeting | Date | Decision focus | Primary output |
 |---|---|---|---|
-| Meeting 00 | Sep 22 | Milestone orientation and delivery plan | Shared project model and eight-week plan |
-| Meeting 01 | Sep 29 | Scope, use cases, architecture straw man, initial interfaces | Scope baseline and assignments |
-| Meeting 02 | Oct 13 | Functional architecture, interface taxonomy, technology landscape | Architecture and landscape baseline |
-| Meeting 03 | Oct 27 | Requirements, evidence, and gap analysis | Requirements and gap baseline |
-| Meeting 04 | Nov 10 | Release-candidate review | Approval to freeze v0.1 |
+| Meeting 00 | Sep 23 | Milestone orientation and delivery plan | Shared project model and eight-week plan |
+| Meeting 01 | Sep 23 | Scope, use cases, architecture straw man, initial interfaces | Scope baseline and assignments |
+| Meeting 02 | Oct 14 | Functional architecture, interface taxonomy, technology landscape | Architecture and landscape baseline |
+| Meeting 03 | Oct 28 | Requirements, evidence, and gap analysis | Requirements and gap baseline |
+| Meeting 04 | Nov 11 | Release-candidate review | Approval to freeze v0.1 |
 | Post-SC26 review | Late Nov / early Dec | Feedback triage and v1.0 planning | Revision backlog and Milestone 2 handoff |
 
 ## 7. Workstreams
@@ -181,7 +161,7 @@ Milestone 1 is organized into five coordinated workstreams.
 | Requirements and gaps | Derive needs from use cases and identify missing capabilities | Requirements matrix and gap analysis |
 | White paper and SC26 integration | Integrate outputs and map the pathfinder implementation | v0.1 release and SC26 coverage map |
 
-## 8. Project-management rules
+## 8. Housekeeping rules
 
 ### Meetings are decision gates
 
@@ -198,14 +178,6 @@ Research, drafting, and detailed review happen asynchronously. Biweekly meetings
 Each meeting ends with:
 
 > **Decision or question → owner → deliverable → deadline → status**
-
-### Evidence before precision
-
-Do not manufacture a numerical requirement to complete a matrix. When evidence is insufficient, record:
-
-> **TBD — evidence or benchmark required**
-
-and create an owned follow-up task.
 
 ### Protect the SC26 date
 
