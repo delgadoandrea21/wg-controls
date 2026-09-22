@@ -23,14 +23,6 @@ By the end of the meeting, the group should decide:
 
 Items that cannot be resolved today will be recorded as open questions with an owner and deadline. The group is approving a starting baseline, not a final standard.
 
-## Required pre-read
-
-Please review this page before the meeting and comment on:
-
-- one missing use case;
-- one boundary that should move in or out of scope; and
-- one interface where your organization has relevant experience or evidence.
-
 ## Agenda
 
 | Time | Topic | Method | Output |
